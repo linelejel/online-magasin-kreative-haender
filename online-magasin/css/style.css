@@ -1,0 +1,435 @@
+/* baggrundsbillede */
+body{
+    background-image: url('../img/penselstroeg.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color:#eeece6;
+    font-family: 'Josefin Slab', sans-serif;
+    
+    
+}
+
+/* styling af navigationsbar */
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #eeece6;
+}
+
+#nav-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #333;
+}
+
+.menu-part {
+    display: flex;
+}
+
+.menu-item {
+    padding: 15px 50px;
+    position: relative; 
+    cursor: pointer;
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1;
+    border: 1px solid #ccc;
+    padding: 15px 50px;
+    background-color: #eeece6;
+}
+
+.dropdown div {
+    padding: 10px;
+    cursor: pointer;
+    white-space: nowrap; 
+}
+
+.dropdown div a:hover {
+  cursor: pointer;
+}
+
+.dropdown-item{
+    cursor: pointer;
+}
+
+.menu-item:hover .dropdown {
+    display: block;
+    
+}
+
+/* Styling af hover linje under menupunkter */
+.dropdown a {
+    text-decoration: none;
+    color: #333; 
+}
+
+.dropdown a:hover {
+    border-bottom: 2px solid #638a59; 
+}
+
+/* Styling af logo */
+#logo img {
+    height: 130px
+}
+
+/* styling af section-1 */
+.section-1 {
+    height: 900px;
+}
+.overskrift{
+    text-align: center;
+    font-size: 50px;
+    padding-top: 10%;
+}
+
+.underoverskrift{
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 10%;
+}
+
+.artikel-henvisning{
+    padding-left: 7%;
+    font-size: 20px;
+}
+
+/* styling af billedfelt til artikel1 */
+div.artikel1{
+    width: 20%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+    position: absolute;
+    left: 100px;
+    text-decoration: none;
+    }
+    div.tekstfelt{
+        text-align: center;
+        padding: 10px 20px;
+        color: #333;
+        text-decoration: none;
+    }
+
+    div.tekstfelt a{
+        text-decoration: none; 
+    }
+
+    div.artikel1 a {
+        text-decoration: none;
+    }
+
+/* styling af billedfelt til artikel2 */
+div.artikel2{
+    width: 20%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+    position: absolute;
+    left: 550px;
+    }
+    div.tekstfelt{
+        text-align: center;
+        padding: 10px 20px;
+    }
+
+    div.artikel2 a{
+        text-decoration: none;
+    }
+
+    /* styling af billedfelt til artikel 3 */
+    div.artikel3{
+        width: 20%;
+        background-color: white;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        margin-bottom: 25px;
+        position: absolute;
+        left: 990px;
+        }
+        div.tekstfelt{
+            text-align: center;
+            padding: 10px 20px;
+        }
+
+        div.artikel3 a{
+            text-decoration: none;
+        }
+
+
+
+/* styling af footer */
+footer{
+    text-align: center;
+    padding: 3px;
+    background-color: #cedcbd;
+    color: black;
+}
+
+footer p{
+    background-color: #cedcbd;
+}
+
+/* styling af Højtider side */
+
+/* styling af section */
+.hoejtider-section{
+    height: 900px;
+}
+      /* Styling af tekstboks */
+      .tekstboks{
+        background-color: #638a59;
+        width: 8%;
+        height: 140px;
+        font-weight: bold;
+        padding: 70px;
+        position: absolute;
+        bottom: 30px;
+        left: 900px;
+        border-radius: 8%;
+    }
+    
+    .tekstboks ul li{
+        background-color: #638a59;
+        color: black;
+        font-size: 16px;
+    }
+
+    
+    /* styling af billede til trender boks */
+    div.trender{
+    width: 30%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+    position: absolute;
+    left: 100px;
+    }
+    
+    div.tekstfelt{
+        text-align: center;
+        padding: 10px 20px;
+    }
+
+    .under-overskrift-hoeajtider{
+        text-align: center;
+        margin-bottom: 100px;
+    }
+
+    .hoejtider-section h2{
+        padding-left: 100px;
+    }
+
+    /* Styling af Tips & Tricks siden */
+    /* styling af billede til trender boks */
+    
+    .section-2 {
+        height: 900px;
+    }
+    
+    div.trender{
+    width: 20%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+    position: absolute;
+    left: 100px;
+    }
+    div.tekstfelt{
+        text-align: center;
+        padding: 10px 20px;
+    }
+
+    .beskrivelse-underside{
+        text-align: center;
+        margin-bottom: 100px;
+    }
+
+    .trender-overskrift{
+        padding-left: 100px;
+    }
+
+    .læs-også-boks {
+        background-color: #638a59;
+        width: 17%;
+        height: 20%;
+        position: absolute;
+        bottom: 70px;
+        left: 900px;
+        border-radius: 8%;
+        padding: 10px 5px 10px 40px
+    }
+    
+    .læs-også-boks ul {
+        margin: 0;
+        padding: 0; /* Fjern ul-padding for at nulstille punktlisten */
+    }
+    
+
+
+    /* Styling af artikel 1 */
+    /* styling af billederne i artikel */
+    .syltetøjsglas-header{
+        text-align: center;
+        padding: 150px 0px 0px 0px;
+    }
+
+    /* Styling af artikel overskriften */
+    .artikel1-overskrift-1{
+        text-align: center;
+       
+    }
+
+    /* Styling af billeder i materialeboksen */
+
+    .materialeliste-boks {
+        background-color: #cedcbd;
+        color: #333;
+        display: flex;
+        align-items: flex-start; /* Justerer elementerne til toppen */
+        justify-content: flex-start; /* Justerer elementerne til venstre */
+        height: 250px;
+        padding: 20px; /* Tilføj passende padding efter dine ønsker */
+      }
+      
+      .materiale-overskrift {
+        font-weight: bold;
+        margin: 0; /* Fjern standardmargen */
+        padding-right: 750px; /* Tilføj afstand til højre af overskriften */
+        margin: 0px;
+        padding-left: 250px;
+        list-style-type: disc;
+      }
+      
+      .materialeliste ul {
+        list-style-type: disc; /* Tilføjer punktliste (disk) */
+        padding-left: 250px; /* Justerer indrykning af punktlisten */
+        margin: 0px;
+      }
+
+      .tidestimering{
+        position: absolute;
+        padding-left: 850px;
+      }
+
+
+
+    /* Styling af billede og brødteksten */
+
+    .tekst-og-billede-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr; /* Opdel i to kolonner, hver med lige bredde */
+        grid-gap: 20px; /* Tilføj afstand mellem kolonnerne */
+    }
+    
+    .tekst{
+        padding-bottom: 80px;
+        padding-left: 30px;
+    }
+    
+    .billede {
+        display: flex;
+        align-items: center; /* Centrer billedet vertikalt */
+        justify-content: flex-end; /* Placér billedet til højre */
+        padding-right: 60px;
+    }
+
+    /* Styling af artikel 2 */
+    .artikel2-overskrift-2{
+        text-align: center;
+        padding: 150px 0px 0px 0px;
+        font-size: 30px;
+    }
+
+    .upcycle-billede{
+        text-align: center;
+    }
+    
+    /* styling af tekst ved siden af billede */
+
+    .artikel-indhold {
+        display: flex; 
+        justify-content: space-between; 
+        align-items: flex-start; 
+        margin-top: 20px; 
+    }
+    
+    .artikel-tekst {
+        flex: 1; 
+        padding-right: 0px; 
+        padding-left: 200px;
+        margin-right: 0px;
+        font-size: 25px;
+        font-style: italic;
+    }
+    
+    .upcycle-billede {
+        width: 50%; 
+        padding-right: 50px;
+        margin-left: 0px;
+    }
+
+    .forfatter{
+        font-size: 11px;
+    }
+
+    .øjenbryns-overskrift{
+        font-size: 12px;
+        margin: 0px;
+    }
+
+    .brødtekst-overskrift{
+        margin-top: 0px;
+    }
+    
+    /* styling af brødtekst */
+    .spalter-artikel2{
+        display: flex; 
+        justify-content: space-around; 
+        padding-bottom: 100px;
+    }
+    
+    .spalte-upcycle{
+        width: 40%; 
+    }
+    
+
+
+    /* Styling af artikel 3 */
+    .artikel3-overskrift-3{
+        text-align: center;
+        padding: 150px 0px 0px 0px;
+        font-size: 30px;
+    }
+
+    .hækleopskrift-billede{
+        text-align: center;
+       
+    }
+
+    /* styling af brødtekst */
+    .spalter {
+        display: flex; 
+        justify-content: space-between; 
+        padding-bottom: 100px;
+    }
+    
+    .spalte {
+        width: 48%; 
+    }
+    
+    .tidestimering-sværhedsgrad{
+        position: absolute;
+        padding-left: 800px;
+    }
+
+    
+    
+   
